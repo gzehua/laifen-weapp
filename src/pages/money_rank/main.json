@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-button": "./../../../../static/vant-weapp/dist/button/index",
+    "van-notice-bar": "./../../../../static/vant-weapp/dist/notice-bar/index",
+    "van-cell": "./../../../../static/vant-weapp/dist/cell/index"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-button": "./../../../../static/vant-weapp/dist/button/index",
+    "van-notice-bar": "./../../../../static/vant-weapp/dist/notice-bar/index",
+    "van-row": "./../../../../static/vant-weapp/dist/row/index",
+    "van-col": "./../../../../static/vant-weapp/dist/col/index",
+    "van-cell": "./../../../../static/vant-weapp/dist/cell/index",
+    "van-cell-group": "./../../../../static/vant-weapp/dist/cell-group/index"
+  }
+}

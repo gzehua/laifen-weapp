@@ -1,0 +1,67 @@
+{
+  "pages": [
+
+    "pages/home/main",
+    "pages/rank/main",
+    "pages/store/main",
+    "pages/friend_list/main",
+    "pages/friend_contribution/main",
+
+    "pages/withdrawal/main",
+    "pages/vip_level/main",
+    "pages/rank_team/main",
+    "pages/garden/main",
+    "pages/rank_intimacy/main",
+    "pages/question/main",
+    "pages/money_rank/main",
+    "pages/guess_record/main",
+    "pages/guess/main",
+    "pages/strategy/main",
+    "pages/change_face/main",
+    "pages/add_puzzle/main",
+    "pages/big_prize/main",
+    "pages/play_tour/main",
+    "pages/color/main",
+    "pages/rank_list/main",
+    "pages/exchange/main",
+    "pages/user/main",
+    "pages/clock/main",
+    "pages/sign_match/main",
+    "pages/index/main",
+    "pages/lottery/main",
+    "pages/eroll_poster/main",
+    "pages/apply_info/main",
+    "pages/apply_info_prop/main",
+    "pages/poster_create/main",
+    "pages/kv/main",
+    "pages/dt1520_label1/main",
+    "pages/dt1520_label2/main",
+    "pages/dt1520_label3/main",
+    "pages/dt1520_label4/main",
+    "pages/demo/main",
+    "pages/demo2/main",
+    "pages/poster_save/main",
+    "pages/credits_log/main",
+    "pages/picture/main",
+    "pages/number_eliminate/main",
+    "pages/exchange_money_log/main",
+    "pages/share_poster/main"
+
+],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "来粉赚",
+    "navigationBarTextStyle": "black"
+  },
+  "cloudfunctionRoot": "/static/functions/",
+  "permissions": {
+    "openapi": [
+      "security.msgSecCheck",
+      "security.imgSecCheck"
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx32540bd863b27570","wx4a9e44271918fb99","wx0bbbbfc5708e605d","wx8d7efedb0ed500ef"
+  ]
+}

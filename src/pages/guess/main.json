@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-button": "../../../../../static/vant-weapp/dist/button/index",
+    "van-radio": "./../../../../static/vant-weapp/dist/radio/index",
+    "van-radio-group": "./../../../../static/vant-weapp/dist/radio-group/index",
+    "van-row": "./../../../../static/vant-weapp/dist/row/index",
+    "van-col": "./../../../../static/vant-weapp/dist/col/index",
+    "van-field": "../../../../../static/vant-weapp/dist/field/index",
+    "van-dialog": "./../../../../static/vant-weapp/dist/dialog/index"
+  }
+}

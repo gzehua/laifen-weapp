@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-dialog": "./../../../../static/vant-weapp/dist/dialog/index",
+    "van-cell": "./../../../../static/vant-weapp/dist/cell/index",
+    "van-cell-group": "./../../../../static/vant-weapp/dist/cell-group/index",
+    "van-field": "./../../../../static/vant-weapp/dist/field/index",
+    "van-button": "./../../../../static/vant-weapp/dist/button/index",
+    "van-progress": "./../../../../static/vant-weapp/dist/progress/index"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-dialog": "./../../../../static/vant-weapp/dist/dialog/index",
+    "van-button": "./../../../../static/vant-weapp/dist/button/index"
+
+  }
+}

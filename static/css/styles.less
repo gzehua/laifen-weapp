@@ -1,0 +1,412 @@
+
+html{
+  font-size:300%;
+  background: rgb(252, 207, 133) url(http://star.peyesight.cn/images/choujiangbg.png) no-repeat center bottom;
+  background-size: 100%;
+}
+.lucky-title{
+  height: 2rem;
+  background: url(http://star.peyesight.cn/images/lottery_title.png) no-repeat ;
+  background-size: 100%;
+}
+.content {
+
+  background-size: 100%;
+  .conts {
+   // min-height: 11.5rem;
+    .activitytime {
+      height: 0.5rem;
+      width: 100%;
+      position: absolute;
+      .timebg {
+        width: 100%;
+        height: 100%;
+        background: #000000;
+        opacity: 0.3;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .time {
+        color: #ffffff;
+        line-height: 0.5rem;
+        padding-left: 0.2rem;
+        font-size: 0.24rem;
+        position: relative;
+        z-index: 2;
+      }
+    }
+    .rule {
+      height: 0.69rem;
+      margin-bottom: 2.37rem;
+      position: relative;
+      .ruletop {
+        width: 1.35rem;
+        height: 0.46rem;
+        position: absolute;
+        right: 0;
+        bottom: 3px;
+        .rulebg {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          background: #1201d5;
+          opacity: 0.3;
+          border-top-left-radius: 0.23rem;
+          border-bottom-left-radius: 0.23rem;
+        }
+        .ruletitle {
+          text-align: center;
+          line-height: 0.46rem;
+          font-size: 0.24rem;
+          color: #fff;
+          position: relative;
+          z-index: 3;
+          border-top-left-radius: 0.23rem;
+          border-bottom-left-radius: 0.23rem;
+          border-bottom: 3px solid #1201d5;
+        }
+      }
+    }
+    .title {
+      height: 0.46rem;
+      text-align: center;
+      color: #464ff4;
+      font-size: 0.28rem;
+      line-height: 0.46rem;
+      font-weight: 700;
+      margin-bottom: 0.24rem;
+    }
+    .box {
+      width: 6.28rem;
+      height: 6.25rem;
+      margin: auto;
+      position: relative;
+      overflow: hidden;
+      .pointer {
+        width: 1.81rem;
+        height: 2.07rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 20;
+        transform: translate(-50%, -55%);
+        background: url(http://star.peyesight.cn/images//chou.png) top center no-repeat;
+        background-size: 100%;
+        p {
+          font-size: 0.36rem;
+          color: #ff4027;
+          font-weight: 700;
+          text-align: center;
+        }
+        p:first-of-type {
+          margin-top: 0.6rem;
+        }
+      }
+      .boxbg {
+        width: 5.60rem;
+        height: 5.60rem;
+        background: url(http://star.peyesight.cn/images/draw_wheel.png) top center no-repeat;
+        background-size: 100%;
+        padding: 0.36rem;
+        .turn {
+          background: blueviolet;
+          width: 5.60rem;
+          height: 5.60rem;
+          border-radius: 50%;
+          overflow: hidden;
+          //border:1px solid #00F;
+          box-shadow: 0px 1px 3px #ffd8ad;
+          .slice {
+            box-sizing: border-box;
+            //border: 1px solid #ffd8ad;
+          }
+          .win {
+            //background: #fff4c9!important;
+          }
+          .wheel-bg6 {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            div {
+              text-align: center;
+            }
+            .prize-list {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              ul {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                li {
+                  position: absolute;
+                  top: 0px;
+                  left: 50%;
+                  width: 50%;
+                  height: 50%;
+                  transform-origin: 0 100%;
+                  overflow: hidden;
+                  cursor: pointer;
+                  box-sizing: border-box;
+                  border-left: 1px solid #ffd8ae;
+                  //background: #fff;
+                }
+              }
+              .ulOne {
+                clip: rect(0, 5.6rem, 5.6rem, 2.8rem);
+              }
+              .ulTwo {
+                clip: rect(0, 2.8rem, 5.6rem, 0);
+              }
+              .prize-item {
+                position: absolute;
+                top: 0;
+                z-index: 12;
+                height: 2.8rem;
+                left: 50%;
+                transform: translateX(-50%);
+                transform-origin: 0 100%;
+                .prize-pic {
+                  height: 0.85rem;
+                  //padding-top: 0.3rem;
+                  text-align: center;
+                  img {
+                    width: 0.75rem;
+                  }
+                }
+                .prize-name {
+                  font-size: 0.24rem;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+      .money {
+        position: absolute;
+        width: 0.57rem;
+        height: 0.55rem;
+        top: 2.17rem;
+        right: -0.2rem;
+      }
+    }
+    .prizebox {
+      margin: 0.3rem;
+      position: relative;
+      border-radius: 4px;
+      overflow: hidden;
+      padding: 0 0.27rem 0.28rem;
+      .prizebg {
+        position: absolute;
+        border-radius: 4px;
+        background: #fff;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.2;
+      }
+      .pri {
+        .titname {
+          color: #fff;
+          font-size: 0.32rem;
+          text-align: center;
+          margin: 0.07rem;
+          span {
+            img {
+              width: 1.51rem;
+              height: 0.14rem;
+              margin: 0 0.2rem 0.03rem;
+            }
+          }
+          .xuanz {
+            img {
+              transform: rotate(180deg);
+            }
+          }
+        }
+        .prizez {
+          width: 100%;
+          border: 1px solid #fa54a7;
+          border-radius: 4px;
+          background: #ff9f4c;
+          display: flex;
+          .couponleft {
+            padding-left: 0.3rem;
+            width: 3.9rem;
+            position: relative;
+            height: 100%;
+            .iconright {
+              div {
+                line-height: 1.1;
+              }
+              .couponname {
+                font-size: 0.32rem;
+                color: #333333;
+                margin: 0.45rem 0 0.2rem;
+              }
+              .timevalidity {
+                font-size: 0.24rem;
+                color: #999999;
+                margin-bottom: 0.2rem;
+              }
+              .timevalidity:last-of-type {
+                margin-bottom: 0.45rem;
+              }
+            }
+          }
+          .couponright {
+            flex: 1;
+            line-height: 1.2rem;
+            text-align: center;
+            font-size: 0.24rem;
+            color: #ff4745;
+            vertical-align: top;
+            position: relative;
+            .money {
+              position: relative;
+              bottom: 0.02rem;
+              margin-right: 0.02rem;
+            }
+            .moneynum {
+              font-size: 0.5rem;
+            }
+            a {
+              position: absolute;
+              left: 0;
+              right: 0;
+              bottom: 0.3rem;
+              width: 1.5rem;
+              height: 0.54rem;
+              color: #fff;
+              background: #ff4745;
+              border-radius: 2px;
+              line-height: 0.54rem;
+              text-align: center;
+              font-size: 0.28rem;
+              margin: auto;
+              display: block;
+            }
+            .tel {
+              bottom: 0;
+              top: 0;
+            }
+            div {
+              position: absolute;
+              right: -0.2rem;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+              width: 1.28rem;
+              height: 1.28rem;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    .popbg {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: 0.7;
+    }
+    .popbox {
+      width: 5.54rem;
+      height: 4.98rem;
+      position: absolute;
+      top: 27%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      //background: url(http://star.peyesight.cn/images//zhongjiang.jpg) top center no-repeat;
+      background-size: 100%;
+      text-align: center;
+      .img {
+        width: 3.06rem;
+        //height: 1.4rem;
+        height: 2.9rem;
+        margin: auto;
+        margin-top: 1.07rem;
+        margin-left: 1.1rem;
+        background: url(http://star.peyesight.cn/images//zhongjiangla.png) top center no-repeat;
+        background-size: 100%;
+      }
+      .img1 {
+        background: url(http://star.peyesight.cn/images//zhongjiang.jpg) top center no-repeat;
+        background-size: 100%;
+      }
+      .words1 {
+        font-size: 0.4rem;
+        color: #ff7d12;
+        margin-top: 0.2rem;
+      }
+      .words2 {
+        font-size: 0.28rem;
+        color: #ff8422;
+      }
+      .words3 {
+        font-size: 0.24rem;
+        color: #999999;
+        margin-top: 0.07rem;
+      }
+    }
+    .activityrule {
+      width: 5.54rem;
+      height: 6.32rem;
+      position: absolute;
+      top: 20%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background: url(http://star.peyesight.cn/images//zhongjiang.jpg) top center no-repeat;
+      background-size: 100%;
+      .rulecnt {
+        padding: 1.3rem 0.77rem 0;
+        p {
+          font-size: 0.24rem;
+          line-height: 0.4rem;
+          text-align: justify;
+          color: #333333;
+        }
+        p:last-of-type {
+          color: #ff4928;
+        }
+      }
+    }
+    .close {
+      width: 0.5rem;
+      height: 0.5rem;
+      background: url(http://star.peyesight.cn/images//close_store.png) top center no-repeat;
+      background-size: 100%;
+      position: absolute;
+      top: 75%;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+}
+

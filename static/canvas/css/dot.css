@@ -1,0 +1,47 @@
+body{ text-align:center}
+/* CSS configuration for dot element */
+
+
+.dot {
+  -webkit-animation: dot 0.7s;
+  animation: dot 0.7s;
+}
+
+/* Keyframe for dot animation */
+
+@-webkit-keyframes 
+dot {  0% {
+ opacity: 1;
+ -webkit-transform: scale(1, 1);
+ -moz-transform: scale(1, 1);
+ -ms-transform: scale(1, 1);
+ -o-transform: scale(1, 1);
+ transform: scale(1, 1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(4, 4);
+ -moz-transform: scale(4, 4);
+ -ms-transform: scale(4, 4);
+ -o-transform: scale(4, 4);
+ transform: scale(4, 4);
+}
+}
+ @keyframes 
+dot {  0% {
+ opacity: 1;
+ -webkit-transform: scale(1, 1);
+ -moz-transform: scale(1, 1);
+ -ms-transform: scale(1, 1);
+ -o-transform: scale(1, 1);
+ transform: scale(1, 1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(4, 4);
+ -moz-transform: scale(4, 4);
+ -ms-transform: scale(4, 4);
+ -o-transform: scale(4, 4);
+ transform: scale(4, 4);
+}
+}

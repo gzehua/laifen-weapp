@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "数字消消乐",
+  "usingComponents": {
+    "van-dialog": "./../../../../static/vant-weapp/dist/dialog/index"
+  }
+}

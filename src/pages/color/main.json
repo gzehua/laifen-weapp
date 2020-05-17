@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "烧脑颜色",
+  "usingComponents": {
+    "van-dialog": "./../../../../static/vant-weapp/dist/dialog/index"
+  }
+}

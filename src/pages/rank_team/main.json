@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-card": "./../../../../static/vant-weapp/dist/card/index",
+    "van-row": "./../../../../static/vant-weapp/dist/row/index",
+    "van-col": "./../../../../static/vant-weapp/dist/col/index",
+    "van-dialog": "./../../../../static/vant-weapp/dist/dialog/index"
+  }
+}
