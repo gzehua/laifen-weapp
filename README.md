@@ -13,10 +13,10 @@
 
 <p><span style="font-size:24px">小程序线上二维码:</span></p>
 
-<p><img alt="" src="https://www.salterwudi.com/images/laifende.jpg" style="height:300px; width:300px" /></p>
+<p><img alt="" src="https://www.salterwudi.com/images/laifende.jpg" style="height:150px; width:150px" /></p>
 
 <p><span style="font-size:24px">技术支持微信号：&nbsp;18813066492</span></p>
 
-<p><img alt="" src="https://www.salterwudi.com/images/wx.jpg" style="height:300px; width:300px" /></p>
+<p><img alt="" src="https://www.salterwudi.com/images/wx.jpg" style="height:150px; width:150px" /></p>
 
 <p>&nbsp;</p>
